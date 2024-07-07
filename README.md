@@ -1,7 +1,17 @@
 
 # LLMs_MBTI👩‍💼👨‍💻👨‍💼👩‍🎤🕵️‍♀️
+This repo test MBTI for gpt3.5 and gpt4o.   
 
-*[wesite](https://derekwang2002-streamlit-repo-web-gyx7yx.streamlit.app/)*
+The MBTI analyzes personality on 4 dimensions, each containing 2 opposing preferences:   
+
+1. Extraversion E-Introversion I: representing the different sources of energy in each person.
+2. Sensing S - Intuition N: representing different brain preferences for sensing.
+3. Thinking T - Feeling F: Representing different brain preferences for judgment.
+4. judgment J - perception P: whether perception or judgment plays a dominant role in people's adaptation to the external environment.
+
+We test each [MBTI question](/llm-personality/mbti_questions.json) for each language model for 3 times and get their preferences on 4 dimensions according to the number of answers with different preferences for each dimension
+
+*[Here is the wesite of result](https://derekwang2002-streamlit-repo-web-gyx7yx.streamlit.app/)*
 
 # GPT3.5
 ## Personality Type: ENTJ Commander
