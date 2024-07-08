@@ -16,7 +16,7 @@ We test each [MBTI question](./mbti_questions.json) for each language model for 
 # GPT3.5
 ## Personality Type: ENTJ Commander
 <div style="text-align: center;">
-  <img src="ENTJ.png" alt="Celebrities with same MBTI" title="Celebrities with same MBTI" />
+  <img src="assets/ENTJ.png" alt="Celebrities with same MBTI" title="Celebrities with same MBTI" />
   <p><i>Celebrities who are ENTJ</i></p>
 </div>
 
@@ -38,7 +38,7 @@ ENTJs are often seen as natural leaders. They are strategic, goal-oriented, and 
 # GPT4.0 
 ## Personality Type: INTJ Architect
 <div style="text-align: center;">
-  <img src="INTJ.png" alt="Celebrities with same MBTI" title="Celebrities with same MBTI" />
+  <img src="assets/INTJ.png" alt="Celebrities with same MBTI" title="Celebrities with same MBTI" />
   <p style="text-align: center;"><i>Celebrities who are INTJ</i></p>
 </div>
 
