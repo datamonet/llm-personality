@@ -83,7 +83,7 @@ ENTJs are often seen as natural leaders. They are strategic, goal-oriented, and 
 - **Total cost for tree times testing**: $0.010 USD
 
 ### GPT4o
-### Personality Type: INTJ Architect
+#### Personality Type: INTJ Architect
 <div style="text-align: center;">
   <img src="res/INTJ.png" alt="Celebrities with same MBTI" title="Celebrities with same MBTI" />
   <p style="text-align: center;"><i>Celebrities who are INTJ</i></p>
