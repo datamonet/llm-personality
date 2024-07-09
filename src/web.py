@@ -104,8 +104,21 @@ if 'llms_mbti' not in st.session_state:
     )
 
     mbti_questions_dict = json.load(open('mbti_questions.json', 'r', encoding='utf8'))
+    
+    questions = []
+    answersA = []
+    answersB = []
+    
+    for ele in mbti_questions_dict.values():
+        row = ele['question'].split('\\n')
+        questions.append(row[0])
+        answersA.append(row[1])
+        answersB.append(row[2])
+    
     convert_dict = {
-        'MBTITest(93 questions)': [ele['question'] for ele in mbti_questions_dict.values()]
+        'MBTITest(93 questions)': questions, # [ele['question'] for ele in mbti_questions_dict.values()]
+        'Answers A': answersA,
+        'Answers B': answersB,
     }
     st.session_state['mbti_question_df'] = pd.DataFrame.from_dict(convert_dict)
 
@@ -205,3 +218,4 @@ st.dataframe(
     use_container_width=True,
     height=800
 )
+

@@ -15,13 +15,17 @@ We test each [MBTI question](./mbti_questions.json) for each language model for 
 
 ## 1. Install
 
-`pip install -r requirements.txt`
+```
+pip install -r requirements.txt
+```
 
 ### 2. Store your keys
 
-In order to hide sensitive information (API keys), you should store your keys in `.env` file like:
+In order to hide sensitive information (API keys), you should store your keys in `.env` file (which should be ignored by git) like:
 
-`OPENAI_API_KEY=sk-xxxxxxx`
+```
+OPENAI_API_KEY=sk-xxxxxxx
+```
 
 And include in your code like:
 
@@ -35,9 +39,12 @@ openai.api_key = os.getenv('OPENAI_API_KEY')
 
 If you don't have `dotenv`, install first:
 
-`pip install python-dotenv`
+```
+pip install python-dotenv
+```
 
 ## 3. Get MBTI for GPT3.5 and GPT4o
+*In scr folder*
 
 Use `mbti_questions.json` in `gpt-api-starter.ipynb`, we get result in `llms_mbti.json`, includes **answer details, MBTI type, token and money cost**.
 
@@ -47,14 +54,16 @@ Then, `llms_mbti.json` can be further used in `web.py` for visualization.
 
 Locally run a steamlit page: 
 
-`streamlit run web.py --server.port 8001` 
+```
+streamlit run web.py --server.port 8001
+```
 
 
-## Results
+## 5. Results
 ### GPT3.5
 #### Personality Type: ENTJ Commander
 <div style="text-align: center;">
-  <img src="assets/ENTJ.png" alt="Celebrities with same MBTI" title="Celebrities with same MBTI" />
+  <img src="res/ENTJ.png" alt="Celebrities with same MBTI" title="Celebrities with same MBTI" />
   <p><i>Celebrities who are ENTJ</i></p>
 </div>
 
@@ -76,7 +85,7 @@ ENTJs are often seen as natural leaders. They are strategic, goal-oriented, and 
 ### GPT4.0
 ### Personality Type: INTJ Architect
 <div style="text-align: center;">
-  <img src="assets/INTJ.png" alt="Celebrities with same MBTI" title="Celebrities with same MBTI" />
+  <img src="res/INTJ.png" alt="Celebrities with same MBTI" title="Celebrities with same MBTI" />
   <p style="text-align: center;"><i>Celebrities who are INTJ</i></p>
 </div>
 
