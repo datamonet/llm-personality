@@ -19,7 +19,7 @@ We test each [MBTI question](./mbti_questions.json) for each language model for 
 pip install -r requirements.txt
 ```
 
-### 2. Store your keys
+## 2. Store your keys
 
 In order to hide sensitive information (API keys), you should store your keys in `.env` file (which should be ignored by git) like:
 
