@@ -9,9 +9,9 @@ The MBTI analyzes personality on 4 dimensions, each containing 2 opposing prefer
 3. **Thinking T - Feeling F:** Representing different brain preferences for judgment.
 4. **judgment J - perception P:** whether perception or judgment plays a dominant role in people's adaptation to the external environment.
 
-We test each [MBTI question](./mbti_questions.json) for each language model for 3 times and get their preferences on 4 dimensions according to the number of answers with different preferences for each dimension
+We test each [MBTI question](./mbti_questions.json) for each language model for 3 times and get their preferences on 4 dimensions according to the number of answers with different preferences for each dimension. *[Here is a streamlit web page of result](https://derekwang2002-streamlit-repo-web-gyx7yx.streamlit.app/)*
 
-*[Here is a streamlit wesite of result](https://derekwang2002-streamlit-repo-web-gyx7yx.streamlit.app/)*
+[You can see more llm-personality research at here.](https://quilt-trouble-855.notion.site/LLM-MBTI-Papers-1222a8ae851045959403e4628804129a?pvs=74)
 
 ## 1. Install
 
