@@ -44,13 +44,14 @@ pip install python-dotenv
 ```
 
 ## 3. Get MBTI for GPT3.5 and GPT4o
-*In scr folder*
+*(In 'scr' folder)*
 
 Use `mbti_questions.json` in `gpt-api-starter.ipynb`, we get result in `llms_mbti.json`, includes **answer details, MBTI type, token and money cost**.
 
 Then, `llms_mbti.json` can be further used in `web.py` for visualization.
 
-## 4. Visualize(streamlit)
+## 4. Visualization (Streamlit)
+*(In 'scr' folder)*
 
 Locally run a steamlit page: 
 
@@ -80,7 +81,7 @@ ENTJs are often seen as natural leaders. They are strategic, goal-oriented, and 
 
 #### Usage and Cost Details
 
-- **Total cost for tree times testing**: $0.010 USD
+- **Total cost for three times testing**: $0.010 USD
 
 ### GPT4o
 #### Personality Type: INTJ Architect
@@ -103,4 +104,4 @@ INTJs are often seen as strategic and visionary thinkers. They are analytical, g
 
 #### Usage and Cost Details
 
-- **Total cost for tree times testing**: $0.084 USD
+- **Total cost for three times testing**: $0.084 USD
