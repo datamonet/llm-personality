@@ -44,14 +44,14 @@ pip install python-dotenv
 ```
 
 ## 3. Get MBTI for GPT3.5 and GPT4o
-*(In 'scr' folder)*
+*(In 'srr' folder)*
 
 Use `mbti_questions.json` in `gpt-api-starter.ipynb`, we get result in `llms_mbti.json`, includes **answer details, MBTI type, token and money cost**.
 
 Then, `llms_mbti.json` can be further used in `web.py` for visualization.
 
 ## 4. Visualization (Streamlit)
-*(In 'scr' folder)*
+*(In 'src' folder)*
 
 Locally run a steamlit page: 
 
