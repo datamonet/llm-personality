@@ -64,20 +64,15 @@ streamlit run web.py --server.port 8001
 ### GPT3.5
 #### Personality Type: ENTJ Commander
 <div style="text-align: center;">
-  <img src="res/ENTJ.png" alt="Celebrities with same MBTI" title="Celebrities with same MBTI" />
-  <p><i>Celebrities who are ENTJ</i></p>
+  <img src="res/ENFJ.png" alt="Celebrities with same MBTI" title="Celebrities with same MBTI" />
+  <p><i>Celebrities who are ENFJ</i></p>
 </div>
 
 #### Overview of the ENTJ
 
-[ENTJ Personality Type](https://www.16personalities.com/entj-personality)
+[ENFJ Personality Type](https://www.16personalities.com/enfj-personality)
 
-ENTJs are often seen as natural leaders. They are strategic, goal-oriented, and efficiency-driven. Here are some key characteristics of ENTJs:
-
-- **Leadership and Vision**: ENTJs are known for their ability to create future visions and mobilize others to achieve them.
-- **Decisiveness**: They can make quick and confident decisions based on logical reasoning and analysis.
-- **Efficiency and Organization**: They value efficiency and effectiveness, often excelling in managerial roles as they can create order and structure.
-- **Confidence**: They exude confidence and are often seen as charismatic and persuasive.
+ENFJ (Protagonist) is a personality type with the Extraverted, Intuitive, Feeling, and Judging traits. These warm, forthright types love helping others, and they tend to have strong ideas and values. They back their perspective with the creative energy to achieve their goals.
 
 #### Usage and Cost Details
 
@@ -86,21 +81,16 @@ ENTJs are often seen as natural leaders. They are strategic, goal-oriented, and 
 ### GPT4o
 #### Personality Type: INTJ Architect
 <div style="text-align: center;">
-  <img src="res/INTJ.png" alt="Celebrities with same MBTI" title="Celebrities with same MBTI" />
+  <img src="res/INFJ.png" alt="Celebrities with same MBTI" title="Celebrities with same MBTI" />
   <p style="text-align: center;"><i>Celebrities who are INTJ</i></p>
 </div>
 
 
 #### Overview of the INTJ 
 
-[INTJ Personality Type](https://www.16personalities.com/intj-personality)
+[INFJ Personality Type](https://www.16personalities.com/infj-personality)
 
-INTJs are often seen as strategic and visionary thinkers. They are analytical, goal-oriented, and independent. Here are some key characteristics of INTJs:
-
-- **Strategic Planning**: INTJs are known for their ability to see the big picture and develop long-term plans to achieve their goals.
-- **Logical Decision Making**: They rely on logical reasoning and objective analysis to make decisions.
-- **Independence**: They value independence and often prefer working alone or in small groups where they can focus on their ideas.
-- **Confidence and Determination**: They are confident in their abilities and determined to achieve their objectives.
+INFJ (Advocate) is a personality type with the Introverted, Intuitive, Feeling, and Judging traits. They tend to approach life with deep thoughtfulness and imagination. Their inner vision, personal values, and a quiet, principled version of humanism guide them in all things.
 
 #### Usage and Cost Details
 

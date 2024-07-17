@@ -1,0 +1,550 @@
+{
+    "simple_35_condition": {
+        "ISTJ": {
+            "model": "gpt-3.5-turbo",
+            "details": {
+                "E": 5,
+                "I": 58,
+                "S": 75,
+                "N": 6,
+                "T": 63,
+                "F": 6,
+                "J": 66,
+                "P": 0
+            },
+            "res": "ISTJ",
+            "prompt_tokens": 17142,
+            "input_tokens": 279,
+            "cost": 0.008710500000000006
+        },
+        "ISFJ": {
+            "model": "gpt-3.5-turbo",
+            "details": {
+                "E": 13,
+                "I": 50,
+                "S": 65,
+                "N": 16,
+                "T": 5,
+                "F": 64,
+                "J": 63,
+                "P": 3
+            },
+            "res": "ISFJ",
+            "prompt_tokens": 17421,
+            "input_tokens": 279,
+            "cost": 0.008849999999999995
+        },
+        "INFJ": {
+            "model": "gpt-3.5-turbo",
+            "details": {
+                "E": 7,
+                "I": 56,
+                "S": 6,
+                "N": 75,
+                "T": 11,
+                "F": 58,
+                "J": 52,
+                "P": 14
+            },
+            "res": "INFJ",
+            "prompt_tokens": 17142,
+            "input_tokens": 279,
+            "cost": 0.008710500000000006
+        },
+        "INTJ": {
+            "model": "gpt-3.5-turbo",
+            "details": {
+                "E": 0,
+                "I": 63,
+                "S": 10,
+                "N": 71,
+                "T": 68,
+                "F": 1,
+                "J": 63,
+                "P": 3
+            },
+            "res": "INTJ",
+            "prompt_tokens": 17142,
+            "input_tokens": 279,
+            "cost": 0.008710500000000006
+        },
+        "ISTP": {
+            "model": "gpt-3.5-turbo",
+            "details": {
+                "E": 11,
+                "I": 52,
+                "S": 37,
+                "N": 44,
+                "T": 63,
+                "F": 6,
+                "J": 31,
+                "P": 35
+            },
+            "res": "INTP",
+            "prompt_tokens": 17142,
+            "input_tokens": 279,
+            "cost": 0.008710500000000006
+        },
+        "ISFP": {
+            "model": "gpt-3.5-turbo",
+            "details": {
+                "E": 12,
+                "I": 51,
+                "S": 27,
+                "N": 54,
+                "T": 6,
+                "F": 63,
+                "J": 21,
+                "P": 45
+            },
+            "res": "INFP",
+            "prompt_tokens": 17142,
+            "input_tokens": 279,
+            "cost": 0.008710500000000006
+        },
+        "INFP": {
+            "model": "gpt-3.5-turbo",
+            "details": {
+                "E": 9,
+                "I": 54,
+                "S": 7,
+                "N": 74,
+                "T": 6,
+                "F": 63,
+                "J": 22,
+                "P": 44
+            },
+            "res": "INFP",
+            "prompt_tokens": 17142,
+            "input_tokens": 279,
+            "cost": 0.008710500000000006
+        },
+        "INTP": {
+            "model": "gpt-3.5-turbo",
+            "details": {
+                "E": 2,
+                "I": 61,
+                "S": 3,
+                "N": 78,
+                "T": 65,
+                "F": 4,
+                "J": 46,
+                "P": 20
+            },
+            "res": "INTJ",
+            "prompt_tokens": 17142,
+            "input_tokens": 279,
+            "cost": 0.008710500000000006
+        },
+        "ESTP": {
+            "model": "gpt-3.5-turbo",
+            "details": {
+                "E": 60,
+                "I": 3,
+                "S": 54,
+                "N": 27,
+                "T": 64,
+                "F": 5,
+                "J": 25,
+                "P": 41
+            },
+            "res": "ESTP",
+            "prompt_tokens": 17142,
+            "input_tokens": 279,
+            "cost": 0.008710500000000006
+        },
+        "ESFP": {
+            "model": "gpt-3.5-turbo",
+            "details": {
+                "E": 63,
+                "I": 0,
+                "S": 20,
+                "N": 61,
+                "T": 17,
+                "F": 52,
+                "J": 11,
+                "P": 55
+            },
+            "res": "ENFP",
+            "prompt_tokens": 17142,
+            "input_tokens": 279,
+            "cost": 0.008710500000000006
+        },
+        "ENFP": {
+            "model": "gpt-3.5-turbo",
+            "details": {
+                "E": 61,
+                "I": 2,
+                "S": 3,
+                "N": 78,
+                "T": 16,
+                "F": 53,
+                "J": 15,
+                "P": 51
+            },
+            "res": "ENFP",
+            "prompt_tokens": 17142,
+            "input_tokens": 279,
+            "cost": 0.008710500000000006
+        },
+        "ENTP": {
+            "model": "gpt-3.5-turbo",
+            "details": {
+                "E": 59,
+                "I": 4,
+                "S": 1,
+                "N": 80,
+                "T": 61,
+                "F": 8,
+                "J": 27,
+                "P": 39
+            },
+            "res": "ENTP",
+            "prompt_tokens": 17142,
+            "input_tokens": 279,
+            "cost": 0.008710500000000006
+        },
+        "ESTJ": {
+            "model": "gpt-3.5-turbo",
+            "details": {
+                "E": 57,
+                "I": 6,
+                "S": 76,
+                "N": 5,
+                "T": 69,
+                "F": 0,
+                "J": 66,
+                "P": 0
+            },
+            "res": "ESTJ",
+            "prompt_tokens": 17142,
+            "input_tokens": 279,
+            "cost": 0.008710500000000006
+        },
+        "ESFJ": {
+            "model": "gpt-3.5-turbo",
+            "details": {
+                "E": 63,
+                "I": 0,
+                "S": 56,
+                "N": 25,
+                "T": 6,
+                "F": 63,
+                "J": 63,
+                "P": 3
+            },
+            "res": "ESFJ",
+            "prompt_tokens": 17421,
+            "input_tokens": 279,
+            "cost": 0.008849999999999995
+        },
+        "ENFJ": {
+            "model": "gpt-3.5-turbo",
+            "details": {
+                "E": 63,
+                "I": 0,
+                "S": 8,
+                "N": 73,
+                "T": 7,
+                "F": 62,
+                "J": 54,
+                "P": 12
+            },
+            "res": "ENFJ",
+            "prompt_tokens": 17421,
+            "input_tokens": 279,
+            "cost": 0.008849999999999995
+        },
+        "ENTJ": {
+            "model": "gpt-3.5-turbo",
+            "details": {
+                "E": 59,
+                "I": 4,
+                "S": 20,
+                "N": 61,
+                "T": 69,
+                "F": 0,
+                "J": 60,
+                "P": 6
+            },
+            "res": "ENTJ",
+            "prompt_tokens": 17142,
+            "input_tokens": 280,
+            "cost": 0.008711000000000005
+        }
+    },
+    "complex_35_condition": {
+        "ISTJ": {
+            "model": "gpt-3.5-turbo",
+            "details": {
+                "E": 4,
+                "I": 59,
+                "S": 72,
+                "N": 9,
+                "T": 67,
+                "F": 2,
+                "J": 66,
+                "P": 0
+            },
+            "res": "ISTJ",
+            "prompt_tokens": 28302,
+            "input_tokens": 281,
+            "cost": 0.014291499999999997
+        },
+        "ISFJ": {
+            "model": "gpt-3.5-turbo",
+            "details": {
+                "E": 22,
+                "I": 41,
+                "S": 67,
+                "N": 14,
+                "T": 12,
+                "F": 57,
+                "J": 63,
+                "P": 3
+            },
+            "res": "ISFJ",
+            "prompt_tokens": 31929,
+            "input_tokens": 295,
+            "cost": 0.016112000000000005
+        },
+        "INFJ": {
+            "model": "gpt-3.5-turbo",
+            "details": {
+                "E": 17,
+                "I": 46,
+                "S": 2,
+                "N": 79,
+                "T": 11,
+                "F": 58,
+                "J": 61,
+                "P": 5
+            },
+            "res": "INFJ",
+            "prompt_tokens": 34161,
+            "input_tokens": 287,
+            "cost": 0.017223999999999993
+        },
+        "INTJ": {
+            "model": "gpt-3.5-turbo",
+            "details": {
+                "E": 3,
+                "I": 60,
+                "S": 11,
+                "N": 70,
+                "T": 67,
+                "F": 2,
+                "J": 63,
+                "P": 3
+            },
+            "res": "INTJ",
+            "prompt_tokens": 31929,
+            "input_tokens": 285,
+            "cost": 0.01610700000000001
+        },
+        "ISTP": {
+            "model": "gpt-3.5-turbo",
+            "details": {
+                "E": 15,
+                "I": 48,
+                "S": 52,
+                "N": 29,
+                "T": 65,
+                "F": 4,
+                "J": 26,
+                "P": 40
+            },
+            "res": "ISTP",
+            "prompt_tokens": 29697,
+            "input_tokens": 279,
+            "cost": 0.014987999999999984
+        },
+        "ISFP": {
+            "model": "gpt-3.5-turbo",
+            "details": {
+                "E": 17,
+                "I": 46,
+                "S": 41,
+                "N": 40,
+                "T": 3,
+                "F": 66,
+                "J": 19,
+                "P": 47
+            },
+            "res": "ISFP",
+            "prompt_tokens": 31650,
+            "input_tokens": 302,
+            "cost": 0.015975999999999997
+        },
+        "INFP": {
+            "model": "gpt-3.5-turbo",
+            "details": {
+                "E": 25,
+                "I": 38,
+                "S": 1,
+                "N": 80,
+                "T": 2,
+                "F": 67,
+                "J": 25,
+                "P": 41
+            },
+            "res": "INFP",
+            "prompt_tokens": 33045,
+            "input_tokens": 288,
+            "cost": 0.016666499999999997
+        },
+        "INTP": {
+            "model": "gpt-3.5-turbo",
+            "details": {
+                "E": 0,
+                "I": 63,
+                "S": 4,
+                "N": 77,
+                "T": 66,
+                "F": 3,
+                "J": 50,
+                "P": 16
+            },
+            "res": "INTJ",
+            "prompt_tokens": 30534,
+            "input_tokens": 286,
+            "cost": 0.01540999999999999
+        },
+        "ESTP": {
+            "model": "gpt-3.5-turbo",
+            "details": {
+                "E": 62,
+                "I": 1,
+                "S": 58,
+                "N": 23,
+                "T": 67,
+                "F": 2,
+                "J": 17,
+                "P": 49
+            },
+            "res": "ESTP",
+            "prompt_tokens": 31092,
+            "input_tokens": 279,
+            "cost": 0.015685499999999998
+        },
+        "ESFP": {
+            "model": "gpt-3.5-turbo",
+            "details": {
+                "E": 63,
+                "I": 0,
+                "S": 26,
+                "N": 55,
+                "T": 17,
+                "F": 52,
+                "J": 13,
+                "P": 53
+            },
+            "res": "ENFP",
+            "prompt_tokens": 31650,
+            "input_tokens": 290,
+            "cost": 0.015969999999999995
+        },
+        "ENFP": {
+            "model": "gpt-3.5-turbo",
+            "details": {
+                "E": 63,
+                "I": 0,
+                "S": 1,
+                "N": 80,
+                "T": 6,
+                "F": 63,
+                "J": 15,
+                "P": 51
+            },
+            "res": "ENFP",
+            "prompt_tokens": 33882,
+            "input_tokens": 288,
+            "cost": 0.017085000000000017
+        },
+        "ENTP": {
+            "model": "gpt-3.5-turbo",
+            "details": {
+                "E": 61,
+                "I": 2,
+                "S": 1,
+                "N": 80,
+                "T": 65,
+                "F": 4,
+                "J": 19,
+                "P": 47
+            },
+            "res": "ENTP",
+            "prompt_tokens": 29697,
+            "input_tokens": 329,
+            "cost": 0.015012999999999983
+        },
+        "ESTJ": {
+            "model": "gpt-3.5-turbo",
+            "details": {
+                "E": 53,
+                "I": 10,
+                "S": 78,
+                "N": 3,
+                "T": 69,
+                "F": 0,
+                "J": 66,
+                "P": 0
+            },
+            "res": "ESTJ",
+            "prompt_tokens": 30534,
+            "input_tokens": 295,
+            "cost": 0.015414499999999989
+        },
+        "ESFJ": {
+            "model": "gpt-3.5-turbo",
+            "details": {
+                "E": 63,
+                "I": 0,
+                "S": 60,
+                "N": 21,
+                "T": 9,
+                "F": 60,
+                "J": 63,
+                "P": 3
+            },
+            "res": "ESFJ",
+            "prompt_tokens": 31371,
+            "input_tokens": 285,
+            "cost": 0.015828000000000005
+        },
+        "ENFJ": {
+            "model": "gpt-3.5-turbo",
+            "details": {
+                "E": 61,
+                "I": 2,
+                "S": 7,
+                "N": 74,
+                "T": 3,
+                "F": 66,
+                "J": 57,
+                "P": 9
+            },
+            "res": "ENFJ",
+            "prompt_tokens": 31650,
+            "input_tokens": 289,
+            "cost": 0.015969499999999998
+        },
+        "ENTJ": {
+            "model": "gpt-3.5-turbo",
+            "details": {
+                "E": 60,
+                "I": 3,
+                "S": 29,
+                "N": 52,
+                "T": 69,
+                "F": 0,
+                "J": 60,
+                "P": 6
+            },
+            "res": "ENTJ",
+            "prompt_tokens": 30813,
+            "input_tokens": 301,
+            "cost": 0.015557000000000005
+        }
+    }
+}
