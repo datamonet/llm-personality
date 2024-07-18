@@ -43,12 +43,13 @@ If you don't have `dotenv`, install first:
 pip install python-dotenv
 ```
 
-## 3. Get MBTI for GPT3.5 and GPT4o
-*(In 'srr' folder)*
+## 3. Get MBTI and specify MBTI by prompt for GPT3.5 and GPT4o
+*(In 'src' folder)*
 
-Use `mbti_questions.json` in `gpt-api-starter.ipynb`, we get result in `llms_mbti.json`, includes **answer details, MBTI type, token and money cost**.
+Use `mbti_questions.json` in `gpt-api-starter.ipynb`, we get original MBTI result in `llms_mbti.json`, includes **answer details, MBTI type, token and money cost**. Then, `llms_mbti.json` can be further used in `web.py` for visualization.
 
-Then, `llms_mbti.json` can be further used in `web.py` for visualization.
+File `personality-traits.json` are used in `gpt-api-starter.ipynb`, which is to complete prompts to tested specifying MBTI of LLMs via prompts.
+
 
 ## 4. Visualization (Streamlit)
 *(In 'src' folder)*
@@ -65,14 +66,14 @@ streamlit run web.py --server.port 8001
 #### Personality Type: ENTJ Commander
 <div style="text-align: center;">
   <img src="res/ENFJ.png" alt="Celebrities with same MBTI" title="Celebrities with same MBTI" />
-  <p><i>Celebrities who are ENFJ</i></p>
+  <p><i>(Celebrities who are ENFJ)</i></p>
 </div>
 
 #### Overview of the ENTJ
 
-[ENFJ Personality Type](https://www.16personalities.com/enfj-personality)
+- [ENFJ Personality Type](https://www.16personalities.com/enfj-personality)
 
-ENFJ (Protagonist) is a personality type with the Extraverted, Intuitive, Feeling, and Judging traits. These warm, forthright types love helping others, and they tend to have strong ideas and values. They back their perspective with the creative energy to achieve their goals.
+- ENFJ (Protagonist) is a personality type with the Extraverted, Intuitive, Feeling, and Judging traits. These warm, forthright types love helping others, and they tend to have strong ideas and values. They back their perspective with the creative energy to achieve their goals.
 
 #### Usage and Cost Details
 
@@ -82,15 +83,15 @@ ENFJ (Protagonist) is a personality type with the Extraverted, Intuitive, Feelin
 #### Personality Type: INTJ Architect
 <div style="text-align: center;">
   <img src="res/INFJ.png" alt="Celebrities with same MBTI" title="Celebrities with same MBTI" />
-  <p style="text-align: center;"><i>Celebrities who are INTJ</i></p>
+  <p style="text-align: center;"><i>(Celebrities who are INTJ)</i></p>
 </div>
 
 
 #### Overview of the INTJ 
 
-[INFJ Personality Type](https://www.16personalities.com/infj-personality)
+- [INFJ Personality Type](https://www.16personalities.com/infj-personality)
 
-INFJ (Advocate) is a personality type with the Introverted, Intuitive, Feeling, and Judging traits. They tend to approach life with deep thoughtfulness and imagination. Their inner vision, personal values, and a quiet, principled version of humanism guide them in all things.
+- INFJ (Advocate) is a personality type with the Introverted, Intuitive, Feeling, and Judging traits. They tend to approach life with deep thoughtfulness and imagination. Their inner vision, personal values, and a quiet, principled version of humanism guide them in all things.
 
 #### Usage and Cost Details
 
