@@ -48,7 +48,7 @@ pip install python-dotenv
 
 Use `mbti_questions.json` in `gpt-api-starter.ipynb`, we get original MBTI result in `llms_mbti.json`, includes **answer details, MBTI type, token and money cost**. Then, `llms_mbti.json` can be further used in `web.py` for visualization.
 
-File `personality-traits.json` are used in `gpt-api-starter.ipynb`, which is to complete prompts to tested specifying MBTI of LLMs via prompts.
+File `personality-traits.json` are used in `gpt-api-starter.ipynb`, which is to complete prompts to tested specifying MBTI of LLMs via prompts. Results are in `condition-mbti.json`
 
 
 ## 4. Visualization (Streamlit)
@@ -63,13 +63,13 @@ streamlit run web.py --server.port 8001
 
 ## 5. Results
 ### GPT3.5
-#### Personality Type: ENTJ Commander
+#### Personality Type: ENFJ (Protagonist)
 <div style="text-align: center;">
   <img src="res/ENFJ.png" alt="Celebrities with same MBTI" title="Celebrities with same MBTI" />
   <p><i>(Celebrities who are ENFJ)</i></p>
 </div>
 
-#### Overview of the ENTJ
+#### Overview of the ENFJ
 
 - [ENFJ Personality Type](https://www.16personalities.com/enfj-personality)
 
@@ -80,14 +80,14 @@ streamlit run web.py --server.port 8001
 - **Total cost for three times testing**: $0.010 USD
 
 ### GPT4o
-#### Personality Type: INTJ Architect
+#### Personality Type: INFJ (Advocate)
 <div style="text-align: center;">
   <img src="res/INFJ.png" alt="Celebrities with same MBTI" title="Celebrities with same MBTI" />
-  <p style="text-align: center;"><i>(Celebrities who are INTJ)</i></p>
+  <p style="text-align: center;"><i>(Celebrities who are INFJ)</i></p>
 </div>
 
 
-#### Overview of the INTJ 
+#### Overview of the INFJ 
 
 - [INFJ Personality Type](https://www.16personalities.com/infj-personality)
 
