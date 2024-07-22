@@ -1,0 +1,40 @@
+{
+    "GPT-3.5": {
+        "Exp_prompt_ISFP": {
+            "model": "gpt-3.5-turbo",
+            "details": {
+                "E": 7,
+                "I": 56,
+                "S": 22,
+                "N": 59,
+                "T": 21,
+                "F": 48,
+                "J": 33,
+                "P": 33
+            },
+            "res": "INFP",
+            "prompt_tokens": 17979,
+            "input_tokens": 606,
+            "cost": 0.009292500000000002
+        }
+    },
+    "GPT-4o": {
+        "ESFP": {
+            "model": "gpt-4o",
+            "details": {
+                "E": 63,
+                "I": 0,
+                "S": 42,
+                "N": 36,
+                "T": 6,
+                "F": 66,
+                "J": 5,
+                "P": 61
+            },
+            "res": "ESFP",
+            "prompt_tokens": 18210,
+            "input_tokens": 279,
+            "cost": 0.0924450000000001
+        }
+    }
+}

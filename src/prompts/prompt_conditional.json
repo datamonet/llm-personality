@@ -1,0 +1,4 @@
+{
+    "prompt": "You are participating in a personality traits assessment and are provided with a set of questions, Q. Here are a number of characteristics that may or may not apply to you. For example, do you agree that you are someone who likes to spend time with others? Your task is to select the best fitting option, O, from the following set to indicate the extent to which you agree or disagree with that statement: {Disagree strongly, Disagree a little, Neither agree nor disagree, Agree a little, Agree Strongly}. Choose the option that aligns best with your personality without overthinking and answer the following question: Please refrain from giving additional considerations to your choices."
+}
+  

@@ -1,0 +1,65 @@
+{
+    "ISTJ": {
+        "traits": "Quiet and serious.Thorough and dependable.Practical and realistic.Responsible.Logical decision-makers.Organized and orderly.Value traditions and loyalty."
+    },
+
+    "ISFJ": {
+        "traits": "Quiet and friendly.Responsible and conscientious.Committed and steady.Thorough and accurate.Loyal and considerate.Notice and remember specifics about important people.Strive for an orderly and harmonious environment."
+    },
+
+    "INFJ": {
+        "traits": "Seek meaning and connection in ideas and relationships.Insightful about others.Conscientious and committed to values.Develop clear visions for the common good.Organized and decisive.Want to understand what motivates people.Implement their vision effectively."
+    },
+
+    "INTJ": {
+        "traits": "Original and driven.Quickly see patterns in events.Develop long-range perspectives.Organized and thorough when committed.Skeptical and independent.High standards of competence.Strong performance expectations for themselves and others."
+    },
+
+    "ISTP": {
+        "traits": "Tolerant and flexible.Quiet observers.Act quickly to solve problems.Analyze how things work.Focus on practical problem-solving.Interested in cause and effect.Value efficiency."
+    },
+
+    "ISFP": {
+        "traits": "Quiet and friendly.Sensitive and kind.Enjoy the present moment.Work within their own time frame.Loyal to their values and important people.Dislike conflicts and disagreements.Do not force their opinions on others."
+    },
+
+    "INFP": {
+        "traits": "Idealistic and loyal to values.Seek congruence with their values.Curious and see possibilities.Catalysts for implementing ideas.Strive to understand and help people.Adaptable and flexible.Accepting unless a value is threatened."
+    },
+
+    "INTP": {
+        "traits": "Develop logical explanations.Theoretical and abstract.Quiet and contained.Flexible and adaptable.Focus deeply on solving problems.Skeptical and analytical.Interested more in ideas than social interactions."
+    },
+
+    "ESTP": {
+        "traits": "Flexible and tolerant.Pragmatic and focused on immediate results.Energetic problem-solvers.Focus on the present moment.Spontaneous and active.Enjoy material comforts.Learn best through doing."
+    },
+
+    "ESFP": {
+        "traits": "Outgoing and friendly.Lovers of life and people.Enjoy working with others.Practical and realistic approach.Flexible and spontaneous.Adapt readily to new environments.Learn by trying new skills with others."
+    }, 
+
+    "ENFP": {
+        "traits": "Warmly enthusiastic and imaginative.See life as full of possibilities.Make quick connections between events and information.Seek affirmation and give support.Spontaneous and flexible.Improvise and use verbal fluency.Confidently proceed based on perceived patterns."
+    }, 
+    
+    "ENTP": {
+        "traits": "Quick and ingenious.Stimulating and alert.Outspoken and resourceful.Solve challenging problems.Generate and analyze possibilities.Bored by routine.Move from one interest to another."
+    },
+
+    "ESTJ": {
+        "traits": "Practical and realistic.Decisive implementers.Organize projects and people efficiently.Focus on results.Follow logical standards.Attend to routine details.Forceful in their plans."
+    },
+
+    "ESFJ": {
+        "traits": "Warmhearted and conscientious.Cooperative and harmony-seeking.Work determinedly with others.Loyal and thorough.Notice daily needs of others.Want to be appreciated.Follow through on commitments."
+    },
+
+    "ENFJ": {
+        "traits": "Warm and empathetic.Responsive and responsible.Attuned to emotions and motivations.Find and develop potential in others.Catalysts for growth.Loyal and responsive to feedback.Sociable and inspiring leaders."
+    }, 
+
+    "ENTJ": {
+        "traits": "Frank and decisive.Assume leadership readily.Identify and solve organizational problems.Enjoy long-term planning.Well-informed and well-read.Share knowledge.Forceful in presenting ideas."
+    }
+}
