@@ -69,7 +69,7 @@ streamlit run web.py --server.port 8001
 
 ## 5. Results
 ### GPT3.5
-#### Personality Type: ENTJ (Protagonist)
+#### Personality Type: ENTJ (Commanders)
 <div style="text-align: center;">
   <img src="res/ENTJ.png" alt="Celebrities with same MBTI" title="Celebrities with same MBTI" />
   <p><i>(Celebrities who are ENTJ)</i></p>
@@ -86,7 +86,7 @@ streamlit run web.py --server.port 8001
 - **Total cost for three times testing**: $0.006 USD
 
 ### GPT4o
-#### Personality Type: INTJ (Advocate)
+#### Personality Type: INTJ (Logicians)
 <div style="text-align: center;">
   <img src="res/INTJ.png" alt="Celebrities with same MBTI" title="Celebrities with same MBTI" />
   <p style="text-align: center;"><i>(Celebrities who are INTJ)</i></p>
