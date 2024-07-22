@@ -46,10 +46,11 @@ pip install python-dotenv
 ## 3. Get MBTI and specify MBTI by prompt for GPT3.5 and GPT4o
 *(In 'src' folder)*
 
-Use `mbti_questions.json` in `gpt-api-starter.ipynb`, we get original MBTI result in `llms_mbti.json`, includes **answer details, MBTI type, token and money cost**. Then, `llms_mbti.json` can be further used in `web.py` for visualization.
+Use `mbti_questions.json`(93 questions) in `gpt-mbti.ipynb`, we get original MBTI result in `llms_mbti.json`, includes **answer details, MBTI type, token and money cost**. Then, `llms_mbti.json` can be further used in `web.py` for visualization.
 
-File `personality-traits.json` are used in `gpt-api-starter.ipynb`, which is to complete prompts to tested specifying MBTI of LLMs via prompts. Results are in `condition-mbti.json`
+File `personality-traits.json` are used in `gpt-mbti.ipynb`, which is to complete prompts to tested specifying MBTI of LLMs via prompts. Results are in `condition-mbti.json`
 
+Another mbti test (in their official website) is 60 question with 7 answers each, we build it with `mbti60.txt` (in 'res' folder) in `make-mbti60.ipynb`, and stored the questionnaire in `mbti_60questions.json`. We also provide function to get mbti via 60 question method in `make-mbti60.ipynb`.
 
 ## 4. Visualization (Streamlit)
 *(In 'src' folder)*
