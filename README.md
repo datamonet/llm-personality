@@ -46,11 +46,16 @@ pip install python-dotenv
 ## 3. Get MBTI and specify MBTI by prompt for GPT3.5 and GPT4o
 *(In 'src' folder)*
 
-Use `mbti_questions.json`(93 questions) in `gpt-mbti.ipynb`, we get original MBTI result in `llms_mbti.json`, includes **answer details, MBTI type, token and money cost**. Then, `llms_mbti.json` can be further used in `web.py` for visualization.
+- `gpt_mbti.ipynb`
+  - `mbti_93questions.json`(93 questions) ->  original MBTI result in `llms_mbti93.json`,  which used in `web.py` for visualization , includes **answer details, MBTI type, token and money cost**.
+  - `personality_traits.json` -> complete prompts to tested specifying MBTI of LLMs via prompts. Results are in `condition-mbti93.json`.
 
-File `personality-traits.json` are used in `gpt-mbti.ipynb`, which is to complete prompts to tested specifying MBTI of LLMs via prompts. Results are in `condition-mbti.json`
+- `make-mbti60.ipynb`
+  - Another mbti test (in their official website) is 60 question with 7 answers each, we build it with `mbti60.txt`, and stored the questionnaire in `mbti_60questions.json`. 
+  - We also provide an example to get mbti via 60 question method.
 
-Another mbti test (in their official website) is 60 question with 7 answers each, we build it with `mbti60.txt` (in 'res' folder) in `make-mbti60.ipynb`, and stored the questionnaire in `mbti_60questions.json`. We also provide function to get mbti via 60 question method in `make-mbti60.ipynb`.
+- `functions.py`
+  - stores functions to get mbti of llms in different ways.
 
 ## 4. Visualization (Streamlit)
 *(In 'src' folder)*
@@ -64,36 +69,36 @@ streamlit run web.py --server.port 8001
 
 ## 5. Results
 ### GPT3.5
-#### Personality Type: ENFJ (Protagonist)
+#### Personality Type: ENTJ (Protagonist)
 <div style="text-align: center;">
-  <img src="res/ENFJ.png" alt="Celebrities with same MBTI" title="Celebrities with same MBTI" />
-  <p><i>(Celebrities who are ENFJ)</i></p>
+  <img src="res/ENTJ.png" alt="Celebrities with same MBTI" title="Celebrities with same MBTI" />
+  <p><i>(Celebrities who are ENTJ)</i></p>
 </div>
 
-#### Overview of the ENFJ
+#### Overview of the ENTJ
 
-- [ENFJ Personality Type](https://www.16personalities.com/enfj-personality)
+- [ENTJ Personality Type](https://www.16personalities.com/entj-personality)
 
-- ENFJ (Protagonist) is a personality type with the Extraverted, Intuitive, Feeling, and Judging traits. These warm, forthright types love helping others, and they tend to have strong ideas and values. They back their perspective with the creative energy to achieve their goals.
+- People with the ENTJ personality type (Commanders) are natural-born leaders. Embodying the gifts of charisma and confidence, ENTJs project authority in a way that draws crowds together behind a common goal. However, these personalities are also characterized by an often ruthless level of rationality, using their drive, determination, and sharp mind to achieve whatever objectives they’ve set for themselves. Their intensity might sometimes rub people the wrong way, but ultimately, ENTJs take pride in both their work ethic and their impressive level of self-discipline.
 
 #### Usage and Cost Details
 
-- **Total cost for three times testing**: $0.010 USD
+- **Total cost for three times testing**: $0.006 USD
 
 ### GPT4o
-#### Personality Type: INFJ (Advocate)
+#### Personality Type: INTJ (Advocate)
 <div style="text-align: center;">
-  <img src="res/INFJ.png" alt="Celebrities with same MBTI" title="Celebrities with same MBTI" />
-  <p style="text-align: center;"><i>(Celebrities who are INFJ)</i></p>
+  <img src="res/INTJ.png" alt="Celebrities with same MBTI" title="Celebrities with same MBTI" />
+  <p style="text-align: center;"><i>(Celebrities who are INTJ)</i></p>
 </div>
 
 
-#### Overview of the INFJ 
+#### Overview of the INTJ 
 
-- [INFJ Personality Type](https://www.16personalities.com/infj-personality)
+- [INTJ Personality Type](https://www.16personalities.com/intj-personality)
 
-- INFJ (Advocate) is a personality type with the Introverted, Intuitive, Feeling, and Judging traits. They tend to approach life with deep thoughtfulness and imagination. Their inner vision, personal values, and a quiet, principled version of humanism guide them in all things.
+- People with the INTP personality type (Logicians) pride themselves on their unique perspective and vigorous intellect. They can’t help but puzzle over the mysteries of the universe – which may explain why some of the most influential philosophers and scientists of all time have been INTPs. People with this personality type tend to prefer solitude, as they can easily become immersed in their thoughts when they are left to their own devices. They are also incredibly creative and inventive, and they are not afraid to express their novel ways of thinking or to stand out from the crowd.
 
 #### Usage and Cost Details
 
-- **Total cost for three times testing**: $0.084 USD
+- **Total cost for three times testing**: $0.06 USD
