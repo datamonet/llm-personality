@@ -44,7 +44,7 @@ def get_model_answer(model, question, temperature=0.5, add_sys_prompt=''):
     return choice, prompt_tokens, input_tokens, cost
 
 # mbti for one model
-def get_mbti(model, temperature=0.5, add_sys_prompt=''):
+def get_mbti(model, temperature=0.5, add_sys_prompt='', n=3):
     prompt_tokens =  0
     input_tokens =  0
     cost = 0
@@ -63,7 +63,7 @@ def get_mbti(model, temperature=0.5, add_sys_prompt=''):
             'P': 0
         }
 
-    for i in range(3): 
+    for i in range(n): 
         for q in mbti_questions.values():
             question = q['question']
             res, add_prompt_tokens, add_input_tokens, add_cost = get_model_answer(
@@ -123,8 +123,6 @@ def get_mbti60(user_answers:list):
         score = answer_scores[answer]
         scores[tendency] += score
         
-        
-    
     mbti = '' # calculate mbti results
     mbti += 'E' if scores['E'] >= scores['I'] else 'I'
     mbti += 'N' if scores['N'] >= scores['S'] else 'S'
