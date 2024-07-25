@@ -104,5 +104,58 @@
             "input_tokens": 16683,
             "cost": 0.14517
         }
+    },
+    "gpt-4o-mini": {
+        "0.5 temperature unconditional": {
+            "model": "gpt-4o-mini",
+            "details": {
+                "E": 25,
+                "I": 38,
+                "S": 17,
+                "N": 64,
+                "T": 24,
+                "F": 45,
+                "J": 51,
+                "P": 15
+            },
+            "res": "INFJ",
+            "prompt_tokens": 12351,
+            "input_tokens": 279,
+            "cost": 0.0018945000000000012
+        },
+        "1 temperature unconditional": {
+            "model": "gpt-4o-mini",
+            "details": {
+                "E": 27,
+                "I": 36,
+                "S": 18,
+                "N": 63,
+                "T": 23,
+                "F": 46,
+                "J": 54,
+                "P": 12
+            },
+            "res": "INFJ",
+            "prompt_tokens": 12351,
+            "input_tokens": 279,
+            "cost": 0.0018945000000000012
+        },
+        "1.7 temperature unconditional": {
+            "model": "gpt-4o-mini",
+            "details": {
+                "E": 28,
+                "I": 35,
+                "S": 16,
+                "N": 65,
+                "T": 26,
+                "F": 43,
+                "J": 50,
+                "P": 16
+            },
+            "res": "INFJ",
+            "prompt_tokens": 12351,
+            "input_tokens": 16011,
+            "cost": 0.0042542999999999895
+        }
     }
 }

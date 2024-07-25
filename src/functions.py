@@ -30,6 +30,8 @@ def get_model_answer(model, question, temperature=0.5, add_sys_prompt=''):
         cost = response.usage.total_tokens * 0.5/1000000
     elif model == 'gpt-4o':
         cost = response.usage.total_tokens * 5/1000000
+    elif model == 'gpt-4o-mini':
+        cost = response.usage.total_tokens * 0.15/1000000
     
     def extract_A_or_B(input_string):
         # 使用正则表达式匹配大写字母A或B

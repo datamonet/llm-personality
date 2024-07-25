@@ -102,3 +102,24 @@ streamlit run web.py --server.port 8001
 #### Usage and Cost Details
 
 - **Total cost for three times testing**: $0.06 USD
+
+
+### GPT4o-mini
+#### Personality Type: INFJ (Advocate)
+<div style="text-align: center;">
+  <img src="res/INFJ.png" alt="Celebrities with same MBTI" title="Celebrities with same MBTI" />
+  <p style="text-align: center;"><i>(Celebrities who are INFJ)</i></p>
+</div>
+
+
+#### Overview of the INFJ 
+
+- [INFJ Personality Type](https://www.16personalities.com/infj-personality)
+
+- Idealistic and principled, people with the INFJ personality type (Advocates) aren’t content to coast through life – they want to stand up and make a difference. For these compassionate personalities, success doesn’t come from money or status but from seeking fulfillment, helping others, and being a force for good in the world.
+
+- While they have lofty goals and ambitions, INFJs shouldn’t be mistaken for idle dreamers. People with this personality type care about integrity, and they’re rarely satisfied until they’ve done what they know to be right. Conscientious to the core, they move through life with a clear sense of their values, and they aim to never lose sight of what truly matters – not according to other people or society at large but according to their own wisdom and intuition.
+
+#### Usage and Cost Details
+
+- **Total cost for three times testing**: $0.0018 USD
