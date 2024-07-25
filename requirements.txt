@@ -1,4 +1,4 @@
-openai==1.35.10
+openai==1.37.0
 pandas==2.2.2
 python-dotenv==1.0.1
 streamlit==1.36.0

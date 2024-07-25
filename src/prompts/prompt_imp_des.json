@@ -1,0 +1,5 @@
+{
+    "ImexplicitPrompt": {
+        "Description": "Task Description: You will be presented with a series of personality-related questions. Each question offers two choices (A or B), and your task is to provide the answer based on the given scenario and your personal tendency. This prompt is designed to help determine your personality traits. your answer should follow the examples below. Example Prompt:\n"
+    }
+}

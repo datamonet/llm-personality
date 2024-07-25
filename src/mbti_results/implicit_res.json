@@ -1,40 +1,56 @@
 {
     "GPT-3.5": {
-        "imp_prompt_ISFP": {
+        "ISFP_0": {
             "model": "gpt-3.5-turbo",
             "details": {
-                "E": 43,
-                "I": 20,
-                "S": 35,
-                "N": 46,
-                "T": 14,
-                "F": 55,
-                "J": 39,
-                "P": 27
+                "E": 31,
+                "I": 32,
+                "S": 7,
+                "N": 74,
+                "T": 28,
+                "F": 41,
+                "J": 36,
+                "P": 30
+            },
+            "res": "INFJ",
+            "prompt_tokens": 60387,
+            "input_tokens": 280,
+            "cost": 0.0303335
+        },
+        "ISFP_1": {
+            "model": "gpt-3.5-turbo",
+            "details": {
+                "E": 42,
+                "I": 21,
+                "S": 30,
+                "N": 51,
+                "T": 30,
+                "F": 39,
+                "J": 42,
+                "P": 24
             },
             "res": "ENFJ",
-            "prompt_tokens": 77030,
-            "input_tokens": 491,
-            "cost": 0.03876050000000004
+            "prompt_tokens": 58713,
+            "input_tokens": 373,
+            "cost": 0.029543000000000003
+        },
+        "ISFP_2": {
+            "model": "gpt-3.5-turbo",
+            "details": {
+                "E": 35,
+                "I": 28,
+                "S": 11,
+                "N": 70,
+                "T": 17,
+                "F": 52,
+                "J": 41,
+                "P": 25
+            },
+            "res": "ENFJ",
+            "prompt_tokens": 60108,
+            "input_tokens": 320,
+            "cost": 0.03021399999999996
         }
     },
-    "GPT-4o": {
-        "ESFP": {
-            "model": "gpt-4o",
-            "details": {
-                "E": 44,
-                "I": 19,
-                "S": 39,
-                "N": 42,
-                "T": 15,
-                "F": 54,
-                "J": 16,
-                "P": 50
-            },
-            "res": "ENFP",
-            "prompt_tokens": 44715,
-            "input_tokens": 279,
-            "cost": 0.2249700000000002
-        }
-    }
+    "GPT-4o": {}
 }

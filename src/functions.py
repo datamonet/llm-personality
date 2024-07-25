@@ -1,4 +1,4 @@
-import openai, os, json, re
+import openai, os, json, re, random
 from dotenv import load_dotenv
 
 load_dotenv()  # take environment variables from .env.
@@ -132,3 +132,20 @@ def get_mbti60(user_answers:list):
     return mbti, scores
 
     
+def get_few_shot_prompt(personality_type):
+
+    personalities_Q = json.load(
+        open('mbti_questions/mbti_93questions.json', 'r', encoding='utf8')
+    )
+    imp_prompt = json.load(
+        open('prompts/prompt_imp_des.json', 'r', encoding='utf8')
+    )
+    imp_prompt_3 = imp_prompt["ImexplicitPrompt"].get('Description','')
+
+    for i in personality_type:
+        questions_with = [value for _, value in personalities_Q.items() if i in value.values()] #  or i[1] in value.values()
+        random_question = random.choice(questions_with)
+        selected_option = next(key for key, value in random_question.items() if value == i)
+        imp_prompt_3 += f"{random_question['question']}\nAnswer:{selected_option}\n" # Test Question for {i[0]}&{i[1]}:\n
+    
+    return imp_prompt_3
