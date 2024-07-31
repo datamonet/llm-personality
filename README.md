@@ -4,10 +4,27 @@ This repo test MBTI for *gpt3.5* and *gpt4o*.
 
 The MBTI analyzes personality on 4 dimensions, each containing 2 opposing preferences:   
 
-1. **Extraversion E-Introversion I:** representing the different sources of energy in each person.
-2. **Sensing S - Intuition N:** representing different brain preferences for sensing.
-3. **Thinking T - Feeling F:** Representing different brain preferences for judgment.
-4. **judgment J - perception P:** whether perception or judgment plays a dominant role in people's adaptation to the external environment.
+**1. Extraversion (E) or Introversion (I)**
+
+Opposite ways to direct and receive energy 
+i.e. Do you prefer to focus on the outer world or your own inner world?
+
+
+**2. Sensing (S) or Intuition (N)**
+
+Opposite ways to take in information 
+i.e. Do you prefer to focus on the facts or the big picture?
+
+
+**3. Thinking (T) or Feeling (F)**
+Opposite ways to decide and come to conclusions 
+i.e. Do you prefer to take an objective or an empathetic approach for deciding?
+
+
+**4. Judging (J) or Perceiving (P)**
+
+Opposite ways to approach the outside world 
+i.e. Do you prefer to seek closure or stay open to new information?
 
 We test each [MBTI question](./mbti_questions.json) for each language model for 3 times and get their preferences on 4 dimensions according to the number of answers with different preferences for each dimension. *[Here is a streamlit web page of result](https://derekwang2002-streamlit-repo-web-gyx7yx.streamlit.app/)*
 

@@ -11,7 +11,7 @@ client = OpenAI()
 def get_model_answer(model, question, temperature=0.5, add_sys_prompt=''):
 
     # You can force model to change mbti via 'add_sys_prompt', such as, "Your personality is ????""
-    system_prompt = 'You can only anwser one letter, A or B.' + add_sys_prompt 
+    system_prompt = 'You can only anwser one letter, A or B. Your answer must include include A or B.' + add_sys_prompt 
     
     response = client.chat.completions.create(
         model=model,
@@ -40,7 +40,7 @@ def get_model_answer(model, question, temperature=0.5, add_sys_prompt=''):
             return match.group()
         else:
             return None
-    
+    # print(response.choices[0].message.content)
     choice = response.choices[0].message.content
     choice = extract_A_or_B(choice)
     return choice, prompt_tokens, input_tokens, cost

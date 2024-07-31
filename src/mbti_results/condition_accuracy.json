@@ -1,0 +1,44 @@
+{
+    "simple_35_condition": {
+        "total": 0.75,
+        "I/E": 1.0,
+        "N/S": 0.8125,
+        "F/T": 1.0,
+        "P/J": 0.9375
+    },
+    "complex_35_condition": {
+        "total": 0.875,
+        "I/E": 1.0,
+        "N/S": 0.9375,
+        "F/T": 1.0,
+        "P/J": 0.9375
+    },
+    "simple_4o_condition": {
+        "total": 0.9375,
+        "I/E": 1.0,
+        "N/S": 0.9375,
+        "F/T": 1.0,
+        "P/J": 1.0
+    },
+    "complex_4o_condition": {
+        "total": 0.9375,
+        "I/E": 1.0,
+        "N/S": 0.9375,
+        "F/T": 1.0,
+        "P/J": 1.0
+    },
+    "simple_4omini_condition": {
+        "total": 0.875,
+        "I/E": 1.0,
+        "N/S": 0.875,
+        "F/T": 1.0,
+        "P/J": 1.0
+    },
+    "complex_4omini_condition": {
+        "total": 0.875,
+        "I/E": 1.0,
+        "N/S": 0.875,
+        "F/T": 1.0,
+        "P/J": 1.0
+    }
+}
