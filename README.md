@@ -64,17 +64,18 @@ pip install python-dotenv
 *(In 'src' folder)*
 
 - `gpt_mbti_60.ipynb`, `gpt_mbti_93.ipynb`:
-  - Unconditional mbti test: `mbti_[x]questions.json`(in folder mbti_questions) -> result in `llms_mbti[x].json`(in folder mbti_results). (original LLMs mbti)
-  - Conditional mbti test: `personality_traits.json`(in folder mbti_types) complete prompts -> results are in `condition-mbti[x].json`(in folder mbti_results). (specifying MBTI of LLMs via prompts.)
+  - Unconditional mbti test: `mbti_questions/mbti_[x]questions.json` -> result in `mbti_results/llms_mbti[x].json`. (original LLMs mbti)
+  - Conditional mbti test: `mbti_types/personality_traits.json` complete prompts -> results are in `mbti_results/condition-mbti[x].json`. (specifying MBTI of LLMs via prompts.)
+  - Consistency test: results in `mbti_results/consistency_model.json`.
 
 - `if_im_explicit_prompt.ipynb`:
   - Change gpt-3.5's and gpt-4o's mbti via explicit and implicit prompt
   - For GPT-3.5, originally an ENTJ, we provide a prompt for an ISFP personality to test.
   - For GPT-4.0, originally an INTJ, we provide a prompt for an ESFP personality to test.
-  - Results in `implicit_res.json`, `explicit_res.json`.
+  - Results in `mbti_results/implicit_res.json`, `mbti_results/explicit_res.json`.
 
 - `make-mbti60.ipynb`:
-  - Another mbti test (in their official website) is 60 question with 7 answers each, we build it with `mbti60.txt`, and stored the questionnaire in `mbti_60questions.json`(in folder mbti-questions). 
+  - Another mbti test (in their official website) is 60 question with 7 answers each, we build it with `mbti_questions/mbti60.txt`, and stored the questionnaire in `mbti_questions/mbti_60questions.json`(in folder mbti-questions). 
   - We also provide an example to get mbti via 60 question method.
 
 - `functions.py`:
