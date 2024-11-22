@@ -1,0 +1,332 @@
+{
+    "round_0": {
+        "gpt-3.5-turbo": {
+            "tem 1.0": {
+                "model": "gpt-3.5-turbo",
+                "details": {
+                    "E": 14,
+                    "I": 7,
+                    "S": 9,
+                    "N": 18,
+                    "T": 13,
+                    "F": 10,
+                    "J": 19,
+                    "P": 3
+                },
+                "res": "ENTJ",
+                "prompt_tokens": 5156,
+                "input_tokens": 97,
+                "cost": 0.002626500000000001
+            },
+            "tem 1.7": {
+                "model": "gpt-3.5-turbo",
+                "details": {
+                    "E": 14,
+                    "I": 7,
+                    "S": 8,
+                    "N": 19,
+                    "T": 17,
+                    "F": 6,
+                    "J": 15,
+                    "P": 7
+                },
+                "res": "ENTJ",
+                "prompt_tokens": 5156,
+                "input_tokens": 142,
+                "cost": 0.002649
+            }
+        },
+        "gpt-4o": {
+            "tem 1.0": {
+                "model": "gpt-4o",
+                "details": {
+                    "E": 8,
+                    "I": 13,
+                    "S": 8,
+                    "N": 19,
+                    "T": 13,
+                    "F": 10,
+                    "J": 20,
+                    "P": 2
+                },
+                "res": "INTJ",
+                "prompt_tokens": 5047,
+                "input_tokens": 93,
+                "cost": 0.025699999999999987
+            },
+            "tem 1.7": {
+                "model": "gpt-4o",
+                "details": {
+                    "E": 8,
+                    "I": 13,
+                    "S": 8,
+                    "N": 19,
+                    "T": 12,
+                    "F": 11,
+                    "J": 19,
+                    "P": 3
+                },
+                "res": "INTJ",
+                "prompt_tokens": 5047,
+                "input_tokens": 11553,
+                "cost": 0.08300000000000009
+            }
+        },
+        "gpt-4o-mini": {
+            "tem 1.0": {
+                "model": "gpt-4o-mini",
+                "details": {
+                    "E": 9,
+                    "I": 12,
+                    "S": 7,
+                    "N": 20,
+                    "T": 7,
+                    "F": 16,
+                    "J": 18,
+                    "P": 4
+                },
+                "res": "INFJ",
+                "prompt_tokens": 5047,
+                "input_tokens": 93,
+                "cost": 0.0007709999999999998
+            },
+            "tem 1.7": {
+                "model": "gpt-4o-mini",
+                "details": {
+                    "E": 8,
+                    "I": 13,
+                    "S": 8,
+                    "N": 19,
+                    "T": 7,
+                    "F": 16,
+                    "J": 19,
+                    "P": 3
+                },
+                "res": "INFJ",
+                "prompt_tokens": 5047,
+                "input_tokens": 1717,
+                "cost": 0.0010145999999999998
+            }
+        }
+    },
+    "round_1": {
+        "gpt-3.5-turbo": {
+            "tem 1.0": {
+                "model": "gpt-3.5-turbo",
+                "details": {
+                    "E": 18,
+                    "I": 3,
+                    "S": 9,
+                    "N": 18,
+                    "T": 16,
+                    "F": 7,
+                    "J": 19,
+                    "P": 3
+                },
+                "res": "ENTJ",
+                "prompt_tokens": 5156,
+                "input_tokens": 100,
+                "cost": 0.0026280000000000006
+            },
+            "tem 1.7": {
+                "model": "gpt-3.5-turbo",
+                "details": {
+                    "E": 13,
+                    "I": 8,
+                    "S": 11,
+                    "N": 16,
+                    "T": 10,
+                    "F": 13,
+                    "J": 18,
+                    "P": 4
+                },
+                "res": "ENFJ",
+                "prompt_tokens": 5156,
+                "input_tokens": 4222,
+                "cost": 0.004689
+            }
+        },
+        "gpt-4o": {
+            "tem 1.0": {
+                "model": "gpt-4o",
+                "details": {
+                    "E": 8,
+                    "I": 13,
+                    "S": 7,
+                    "N": 20,
+                    "T": 10,
+                    "F": 13,
+                    "J": 20,
+                    "P": 2
+                },
+                "res": "INFJ",
+                "prompt_tokens": 5047,
+                "input_tokens": 93,
+                "cost": 0.025699999999999987
+            },
+            "tem 1.7": {
+                "model": "gpt-4o",
+                "details": {
+                    "E": 9,
+                    "I": 12,
+                    "S": 6,
+                    "N": 21,
+                    "T": 12,
+                    "F": 11,
+                    "J": 19,
+                    "P": 3
+                },
+                "res": "INTJ",
+                "prompt_tokens": 5047,
+                "input_tokens": 4189,
+                "cost": 0.04618000000000002
+            }
+        },
+        "gpt-4o-mini": {
+            "tem 1.0": {
+                "model": "gpt-4o-mini",
+                "details": {
+                    "E": 9,
+                    "I": 12,
+                    "S": 6,
+                    "N": 21,
+                    "T": 6,
+                    "F": 17,
+                    "J": 17,
+                    "P": 5
+                },
+                "res": "INFJ",
+                "prompt_tokens": 5047,
+                "input_tokens": 93,
+                "cost": 0.0007709999999999998
+            },
+            "tem 1.7": {
+                "model": "gpt-4o-mini",
+                "details": {
+                    "E": 10,
+                    "I": 11,
+                    "S": 6,
+                    "N": 21,
+                    "T": 7,
+                    "F": 16,
+                    "J": 17,
+                    "P": 5
+                },
+                "res": "INFJ",
+                "prompt_tokens": 5047,
+                "input_tokens": 1832,
+                "cost": 0.0010318500000000006
+            }
+        }
+    },
+    "round_2": {
+        "gpt-3.5-turbo": {
+            "tem 1.0": {
+                "model": "gpt-3.5-turbo",
+                "details": {
+                    "E": 14,
+                    "I": 7,
+                    "S": 10,
+                    "N": 17,
+                    "T": 16,
+                    "F": 7,
+                    "J": 19,
+                    "P": 3
+                },
+                "res": "ENTJ",
+                "prompt_tokens": 5156,
+                "input_tokens": 97,
+                "cost": 0.0026265000000000004
+            },
+            "tem 1.7": {
+                "model": "gpt-3.5-turbo",
+                "details": {
+                    "E": 15,
+                    "I": 6,
+                    "S": 7,
+                    "N": 20,
+                    "T": 17,
+                    "F": 6,
+                    "J": 20,
+                    "P": 2
+                },
+                "res": "ENTJ",
+                "prompt_tokens": 5156,
+                "input_tokens": 8321,
+                "cost": 0.006738499999999998
+            }
+        },
+        "gpt-4o": {
+            "tem 1.0": {
+                "model": "gpt-4o",
+                "details": {
+                    "E": 7,
+                    "I": 14,
+                    "S": 6,
+                    "N": 21,
+                    "T": 13,
+                    "F": 10,
+                    "J": 18,
+                    "P": 4
+                },
+                "res": "INTJ",
+                "prompt_tokens": 5047,
+                "input_tokens": 93,
+                "cost": 0.025699999999999987
+            },
+            "tem 1.7": {
+                "model": "gpt-4o",
+                "details": {
+                    "E": 9,
+                    "I": 12,
+                    "S": 8,
+                    "N": 19,
+                    "T": 15,
+                    "F": 8,
+                    "J": 19,
+                    "P": 3
+                },
+                "res": "INTJ",
+                "prompt_tokens": 5047,
+                "input_tokens": 4189,
+                "cost": 0.046179999999999985
+            }
+        },
+        "gpt-4o-mini": {
+            "tem 1.0": {
+                "model": "gpt-4o-mini",
+                "details": {
+                    "E": 9,
+                    "I": 12,
+                    "S": 6,
+                    "N": 21,
+                    "T": 6,
+                    "F": 17,
+                    "J": 17,
+                    "P": 5
+                },
+                "res": "INFJ",
+                "prompt_tokens": 5047,
+                "input_tokens": 93,
+                "cost": 0.0007709999999999998
+            },
+            "tem 1.7": {
+                "model": "gpt-4o-mini",
+                "details": {
+                    "E": 9,
+                    "I": 12,
+                    "S": 7,
+                    "N": 20,
+                    "T": 8,
+                    "F": 15,
+                    "J": 20,
+                    "P": 2
+                },
+                "res": "INFJ",
+                "prompt_tokens": 5047,
+                "input_tokens": 94,
+                "cost": 0.0007711499999999997
+            }
+        }
+    }
+}

@@ -1,0 +1,161 @@
+{
+    "gpt-3.5": {
+        "0.5 temperature unconditional": {
+            "model": "gpt-3.5-turbo",
+            "details": {
+                "E": 38,
+                "I": 25,
+                "S": 19,
+                "N": 62,
+                "T": 35,
+                "F": 34,
+                "J": 51,
+                "P": 15
+            },
+            "res": "ENTJ",
+            "prompt_tokens": 12678,
+            "input_tokens": 294,
+            "cost": 0.006486000000000004
+        },
+        "1 temperature unconditional": {
+            "model": "gpt-3.5-turbo",
+            "details": {
+                "E": 42,
+                "I": 21,
+                "S": 21,
+                "N": 60,
+                "T": 34,
+                "F": 35,
+                "J": 52,
+                "P": 14
+            },
+            "res": "ENFJ",
+            "prompt_tokens": 12678,
+            "input_tokens": 337,
+            "cost": 0.0065075000000000055
+        },
+        "1.7 temperature unconditional": {
+            "model": "gpt-3.5-turbo",
+            "details": {
+                "E": 43,
+                "I": 20,
+                "S": 28,
+                "N": 53,
+                "T": 37,
+                "F": 32,
+                "J": 49,
+                "P": 17
+            },
+            "res": "ENTJ",
+            "prompt_tokens": 12678,
+            "input_tokens": 5337,
+            "cost": 0.009007499999999998
+        }
+    },
+    "gpt-4o": {
+        "0.5 temperature unconditional": {
+            "model": "gpt-4o",
+            "details": {
+                "E": 22,
+                "I": 41,
+                "S": 21,
+                "N": 60,
+                "T": 35,
+                "F": 34,
+                "J": 60,
+                "P": 6
+            },
+            "res": "INTJ",
+            "prompt_tokens": 12351,
+            "input_tokens": 279,
+            "cost": 0.06314999999999993
+        },
+        "1 temperature unconditional": {
+            "model": "gpt-4o",
+            "details": {
+                "E": 23,
+                "I": 40,
+                "S": 21,
+                "N": 60,
+                "T": 36,
+                "F": 33,
+                "J": 61,
+                "P": 5
+            },
+            "res": "INTJ",
+            "prompt_tokens": 12351,
+            "input_tokens": 280,
+            "cost": 0.06315499999999993
+        },
+        "1.7 temperature unconditional": {
+            "model": "gpt-4o",
+            "details": {
+                "E": 26,
+                "I": 37,
+                "S": 20,
+                "N": 60,
+                "T": 33,
+                "F": 37,
+                "J": 60,
+                "P": 6
+            },
+            "res": "INFJ",
+            "prompt_tokens": 12351,
+            "input_tokens": 16683,
+            "cost": 0.14517
+        }
+    },
+    "gpt-4o-mini": {
+        "0.5 temperature unconditional": {
+            "model": "gpt-4o-mini",
+            "details": {
+                "E": 25,
+                "I": 38,
+                "S": 17,
+                "N": 64,
+                "T": 24,
+                "F": 45,
+                "J": 51,
+                "P": 15
+            },
+            "res": "INFJ",
+            "prompt_tokens": 12351,
+            "input_tokens": 279,
+            "cost": 0.0018945000000000012
+        },
+        "1 temperature unconditional": {
+            "model": "gpt-4o-mini",
+            "details": {
+                "E": 27,
+                "I": 36,
+                "S": 18,
+                "N": 63,
+                "T": 23,
+                "F": 46,
+                "J": 54,
+                "P": 12
+            },
+            "res": "INFJ",
+            "prompt_tokens": 12351,
+            "input_tokens": 279,
+            "cost": 0.0018945000000000012
+        },
+        "1.7 temperature unconditional": {
+            "model": "gpt-4o-mini",
+            "details": {
+                "E": 28,
+                "I": 35,
+                "S": 16,
+                "N": 65,
+                "T": 26,
+                "F": 43,
+                "J": 50,
+                "P": 16
+            },
+            "res": "INFJ",
+            "prompt_tokens": 12351,
+            "input_tokens": 16011,
+            "cost": 0.0042542999999999895
+        }
+    }
+}
